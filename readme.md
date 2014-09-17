@@ -1,5 +1,5 @@
 # [nwdata.org](http://nwdata.org)
-> directory of civic data resources in the pacific northwest
+> directory of civic data resources in miami dade
 
 <a href="http://nwdata.org" target="_blank">![nwdata.org screenshot](img/nwdata-screenshot.png)</a>
 
