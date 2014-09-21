@@ -46,7 +46,7 @@ header h1 {
   font-weight: 700;
   letter-spacing: -2px;
   margin-top: 10px;
-    color: #46b8da;
+    color: #5ba5ce;
 }
 
 header p#description {
@@ -94,31 +94,38 @@ ul.links {
 #bigcontiner{
 
     width: 100%;
-    padding-left: 50px;
-    padding-right: 50px;
+
+    text-align: center;
+    margin: 0px auto;
+
 }
 #apps{
+    width: 100%;
+    background-color:#B5D882;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 30px;
 
-
-
-    border: solid #bebec5;
-    border-radius: 25px;
 
 
 }
 #resources{
-    border: solid #bebec5;
-    border-radius: 25px;
-    overflow: hidden;
 
+width: 100%;
+background-color: #bce8f1;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 30px;
 
 }
 #data {
-    border: solid #bebec5;
-    border-radius: 25px;
-    padding: 25px;
 
-
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 30px;
+    background-color: #282828;
+    color:floralwhite;
 
 }
 
@@ -129,7 +136,10 @@ main section {
 section#hello {
   background-color: #f2f2f0;
   padding-top: 0px;
-    padding-bottom: 20px;
+  padding-bottom: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 10px;
 }
 
 section#hello h1 {
@@ -241,6 +251,7 @@ footer a {
 
   header p#description {
     display: block;
+      color: #ffffff;
   }
 
   main p#description {
@@ -248,10 +259,12 @@ footer a {
   }
 
   section#hello {
-    background-color: #fff;
-    padding-top: 0px;
-    width: 60%;
-    margin: 0px auto;
+      background-color:#979995;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 100%;
+      margin: 0px auto
   }
 
   section#hello h1 {
