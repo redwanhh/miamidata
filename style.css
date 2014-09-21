@@ -93,39 +93,32 @@ ul.links {
 }
 #bigcontiner{
 
-    width: 100%;
-
-    text-align: center;
-    margin: 0px auto;
-
+    width: 80%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 #apps{
-    width: 100%;
-    background-color:#B5D882;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 30px;
 
+
+
+    border: solid #bebec5;
+    border-radius: 25px;
 
 
 }
 #resources{
+    border: solid #bebec5;
+    border-radius: 25px;
+    overflow: hidden;
 
-width: 100%;
-background-color: #bce8f1;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 30px;
 
 }
 #data {
+    border: solid #bebec5;
+    border-radius: 25px;
+    padding: 25px;
 
-    width: 100%;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 30px;
-    background-color: #282828;
-    color:floralwhite;
+
 
 }
 
@@ -134,12 +127,9 @@ main section {
 }
 
 section#hello {
-  background-color: #f2f2f0;
+
   padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 100px;
-  padding-right: 100px;
-  margin-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 section#hello h1 {
@@ -259,12 +249,13 @@ footer a {
   }
 
   section#hello {
-      background-color:#979995;
-      text-align: center;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      width: 100%;
-      margin: 0px auto
+
+    padding-top: 0px;
+    width: 100%;
+    margin: 0px auto;
+    padding-right: 200px;
+    padding-left: 200px;
+     text-align: center;
   }
 
   section#hello h1 {
