@@ -13,7 +13,8 @@ textarea {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, arial, sans-serif; 
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, arial, sans-serif;
+
   
 
 }
@@ -45,6 +46,7 @@ header h1 {
   font-weight: 700;
   letter-spacing: -2px;
   margin-top: 10px;
+    color: #46b8da;
 }
 
 header p#description {
@@ -89,14 +91,34 @@ ul.links {
   font-weight: 700;
   margin: 0px 2px;
 }
+#bigcontiner{
+
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 #apps{
 
-background-color:#E0E0E0;
+
+
+    border: solid #bebec5;
+    border-radius: 25px;
+
 
 }
 #resources{
+    border: solid #bebec5;
+    border-radius: 25px;
+    overflow: hidden;
 
-background-color:#E0E0E0;
+
+}
+#data {
+    border: solid #bebec5;
+    border-radius: 25px;
+    padding: 25px;
+
+
 
 }
 
@@ -107,6 +129,7 @@ main section {
 section#hello {
   background-color: #f2f2f0;
   padding-top: 0px;
+    padding-bottom: 20px;
 }
 
 section#hello h1 {
@@ -119,10 +142,7 @@ section#hello h1 {
   border: 0px;
 }
 
-#data {
-  background-color:#F0F0F0;
 
-}
 
 section h1 {
   font-weight: 100;
