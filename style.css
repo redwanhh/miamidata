@@ -8,6 +8,7 @@ textarea {
   color: #444;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
+    background-color: #8699a4;
   
 
 }
@@ -29,13 +30,19 @@ header {
 }
 
 header #splash {
-  width: 100%;
-  height: auto;
+    width: 80%;
+    height: auto;
+    border: solid  rgb(150, 150, 150)  6px;
+    border-radius: 45px;
+    margin-top: 50px;
+    box-shadow: 2px 1px 11px #888888;
+
 }
 
 header #logo {
   width: 80px;
   height: auto;
+  margin:  169px;
 }
 
 header .container {
@@ -45,8 +52,9 @@ header .container {
 header h1 {
   font-weight: 700;
   letter-spacing: -2px;
-  margin-top: 10px;
     color: #5ba5ce;
+    margin-top: -166px;
+
 }
 
 header p#description {
@@ -101,22 +109,32 @@ ul.links {
 
 
 
-    border: solid #bebec5;
+    border: solid 6px rgb(150, 150, 150);
     border-radius: 25px;
+    box-shadow: 2px 1px 11px #888888;
+    margin-left: -23px;
+    background-color: #f5f5f5;
 
 
 }
 #resources{
-    border: solid #bebec5;
+    border: solid rgb(150, 150, 150)  6px;
     border-radius: 25px;
     overflow: hidden;
+    box-shadow: 2px 1px 11px #888888;
+    background-color: #f5f5f5;
+
 
 
 }
 #data {
-    border: solid #bebec5;
+    border: solid rgb(150, 150, 150)  6px;
     border-radius: 25px;
     padding: 25px;
+    box-shadow: 2px 1px 11px #888888;
+    margin-right: 12px;
+    margin-left: 11px;
+    background-color: #f5f5f5;
 
 
 
@@ -129,7 +147,19 @@ main section {
 section#hello {
 
   padding-top: 0px;
-    padding-bottom: 20px;
+  padding-bottom: 20px;
+    border: solid rgb(150, 150, 150)  6px;
+    border-radius: 25px;
+    width: 76%;
+    box-shadow: 2px 1px 11px #888888;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+    margin-top: -170px;
+    background-color: #f5f5f5;
+
 }
 
 section#hello h1 {
@@ -221,13 +251,13 @@ footer a {
 }
 
 @media only screen and (min-width: 400px){
-  header #logo {
+  header #logo section#hello  {
     width: 120px;
   }
 }
 
 @media only screen and (min-width: 580px){
-  header #logo {
+  header #logo section#hello {
     width: 150px;
   }
 
@@ -248,15 +278,7 @@ footer a {
     display: none;
   }
 
-  section#hello {
 
-    padding-top: 0px;
-    width: 100%;
-    margin: 0px auto;
-    padding-right: 200px;
-    padding-left: 200px;
-     text-align: center;
-  }
 
   section#hello h1 {
     font-size: 40px;
