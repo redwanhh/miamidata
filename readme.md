@@ -1,7 +1,7 @@
-# [miamidata.org](http://miamidata.org)
+# [miamidata](http://)
 > directory of civic data resources in Miami-Dade County
 
-<a href="http://miamidata.org" target="_blank">![miamidata.org screenshot](img/nwdata-screenshot.png)</a>
+<a href="http://miamidata" target="_blank">![miamidata screenshot](img/nwdata-screenshot.png)</a>
 
 ### Help build this directory of tools & resources!
 
